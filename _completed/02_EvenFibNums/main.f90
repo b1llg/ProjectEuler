@@ -3,7 +3,7 @@ program main
    use Functions, only : evenfib
    implicit none
 
-   print*, evenfib(10_ip)
+   print*, evenfib(4000000_ip)
    
 end program main
 
