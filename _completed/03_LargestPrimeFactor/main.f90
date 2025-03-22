@@ -1,8 +1,11 @@
 program main
    use Functions, only: lpf, ip
    implicit none
+   integer(ip) :: num
 
-   print*, lpf(10_ip)
+   num = 600851475143_ip
+   
+   call lpf(num)
    
 end program main
 
